@@ -2,11 +2,11 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.5.
 
-ng new jclaraz --routing --style=scss --prefix=jc
+* Run `ng new jclaraz --routing --style=scss --prefix=jc`
 
-* --routing: will do add routing to the project
-* --style=scss: will change default styling to be scss
-* --prefix=jc: will do all new components to be prefixed jc
+  * --routing: will do add routing to the project
+  * --style=scss: will change default styling to be scss
+  * --prefix=jc: will do all new components to be prefixed jc
 
 ## Development server
 
@@ -15,12 +15,13 @@ ng new jclaraz --routing --style=scss --prefix=jc
 
 ## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+* Run `ng generate component component-name` to generate a new component. 
+* Run `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+## Build for deployment
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+* Run `ng build --prod --aot` to build the project. The build artifacts will be stored in the `dist/` directory.
 
 ## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+* Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
