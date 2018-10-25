@@ -10,6 +10,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 * Run `npm install --save @angular/material @angular/cdk`
 * Run `npm install --save @angular/animations hammerjs`
+* Run `npm install --save @angular/flex-layout`
+
 
 ## Development server
 
